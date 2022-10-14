@@ -30,3 +30,15 @@ if (c > max)
 
 Console.WriteLine("Max = " + max);
 */
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+/*
+Console.WriteLine("Input number ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if (a % 2 == 1)
+    Console.WriteLine("odd integer");
+else
+    Console.WriteLine("even integer");
+*/
