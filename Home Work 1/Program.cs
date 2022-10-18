@@ -48,7 +48,7 @@ else
 Console.WriteLine("Input a number: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int carrent = 1;
+int carrent = 0;
 
 while (N >= carrent)
  {
