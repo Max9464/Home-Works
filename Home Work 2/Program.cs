@@ -15,8 +15,9 @@ int result = CutNumber(num);
 Console.WriteLine($"New version {num} is {result}");
 */
 
-//Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
+//Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+/*
 int number = ReadInt("Введите число: ");
 int count = number.ToString().Length;
 Console.Write(MakeArray(number, count));
@@ -32,7 +33,7 @@ int MakeArray(int a, int b)
 int result = 0;
     if (b < 3)
     {
-        Console.Write("Третьей цифры нет, держи: ");
+        Console.Write("Третьей цифры нет, держи: 0");
     }
     else
     {
@@ -45,4 +46,35 @@ int result = 0;
         result = (a / c) % 10;
     }
 return result;
+}
+*/
+//Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+
+int dayNumber = ReadInt("Введите число от 1 до 7: ");
+Console.WriteLine(WorkHoliday(dayNumber));
+
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
+string WorkHoliday(int a)
+{
+    if (a > 0 && a < 8)
+    {
+        if (a == 7 || a == 6)
+        {
+            Console.Write("Под цифрой " + a + " - Выходной");
+        }
+        else
+        {
+            Console.Write("Под цифрой " + a + " - Рабочий");
+        }
+    }
+    else
+    {
+        Console.Write("Вы ввели число не в пределах от 1 до 7, поэтому не возможно определить");
+    }
+    return " день.";
 }
