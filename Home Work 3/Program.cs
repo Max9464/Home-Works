@@ -35,7 +35,7 @@ else
 }
 */
 
-
+/*
 double Range(double x1, double y1, double z1, double x2, double y2, double z2)
 {
     double distance = Math.Sqrt((Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2)));
@@ -55,5 +55,18 @@ Console.WriteLine("input z2");
 int z2 = Convert.ToInt32(Console.ReadLine());
 double lenght = Range(x1, y1, x2, y2, z1, z2);
 Console.WriteLine($"Distance between tow points is {Math.Round(lenght, 2)}");
+*/
 
+double TableCubes(double n)
+{
+    int i = 0;
+    n = Math.Pow(n, 3);
+    i++;
+    while (n == i / n) ;
+    return n;
+}
+Console.WriteLine("Input number ");
+int num = Convert.ToInt32(Console.ReadLine());
+double table = TableCubes(num);
+Console.WriteLine(table);
 
