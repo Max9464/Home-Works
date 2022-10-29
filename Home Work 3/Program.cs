@@ -57,16 +57,28 @@ double lenght = Range(x1, y1, x2, y2, z1, z2);
 Console.WriteLine($"Distance between tow points is {Math.Round(lenght, 2)}");
 */
 
-double TableCubes(double n)
-{
-    int i = 0;
-    n = Math.Pow(n, 3);
-    i++;
-    while (n == i / n) ;
-    return n;
-}
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
 Console.WriteLine("Input number ");
-int num = Convert.ToInt32(Console.ReadLine());
-double table = TableCubes(num);
-Console.WriteLine(table);
+double n = Convert.ToInt32(Console.ReadLine());
+n = Math.Pow(n, 3);
+double result = 0;
+
+for (double i = 1; result <= n; i++)
+{
+    result = Math.Pow(i, 3);
+    Console.Write(result + ", ");
+}
+
+
+
+
+
+
+//int[,] tableArray = new int[10, 10];
+
+
+
+
+
 
