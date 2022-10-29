@@ -58,7 +58,9 @@ Console.WriteLine($"Distance between tow points is {Math.Round(lenght, 2)}");
 */
 
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+Вриант решения 1
 
+/*
 Console.WriteLine("Input number ");
 double n = Convert.ToInt32(Console.ReadLine());
 n = Math.Pow(n, 3);
@@ -69,8 +71,26 @@ for (double i = 1; result <= n; i++)
     result = Math.Pow(i, 3);
     Console.Write(result + ", ");
 }
+*/
+    
+ Вариант решения 2
+    
+/*
+Console.WriteLine("Input number ");
+double n = Convert.ToInt32(Console.ReadLine());
+double result = 0;
+double i = 1;
+n = Math.Pow(n, 3);
 
+while (result == n)
+{
+    result = Math.Pow(i, 3); 
+    i++;
+    Console.Write(result + ", ");
+}
+*/
 
+Подскажите почему когда ставлю (result == n) у меня получается число которое вводил не могу разобраться что не так.
 
 
 
