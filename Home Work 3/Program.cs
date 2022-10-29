@@ -75,10 +75,5 @@ for (double i = 1; result <= n; i++)
 
 
 
-//int[,] tableArray = new int[10, 10];
-
-
-
-
 
 
