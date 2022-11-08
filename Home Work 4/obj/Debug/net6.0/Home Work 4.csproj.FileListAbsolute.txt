@@ -1,0 +1,15 @@
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.csproj.AssemblyReference.cache
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.AssemblyInfoInputs.cache
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.AssemblyInfo.cs
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.csproj.CoreCompileInputs.cache
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\bin\Debug\net6.0\Home Work 4.exe
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\bin\Debug\net6.0\Home Work 4.deps.json
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\bin\Debug\net6.0\Home Work 4.runtimeconfig.json
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\bin\Debug\net6.0\Home Work 4.dll
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\bin\Debug\net6.0\Home Work 4.pdb
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.dll
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\refint\Home Work 4.dll
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.pdb
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\Home Work 4.genruntimeconfig.cache
+C:\Users\KINDER\Desktop\Home Works\Home-Works-1\Home Work 4\obj\Debug\net6.0\ref\Home Work 4.dll
