@@ -2,15 +2,14 @@
 int Num(int a, int b)
 {
     int current = 1;
-    int res = 0;
+    int num = a;
     while ( current != b)
     {
-        res = a * a;
-        a = res *a;
+        num = num * a;
         current++;
     }
     
-    return a;
+    return num;
 
 }
 Console.Write("Input firts number: ");
